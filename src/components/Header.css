@@ -62,6 +62,19 @@
   background: #0077ed;
 }
 
+/* AI-assisted enhancement: dynamic cart count styling */
+.cart-btn {
+  display: flex;            
+  align-items: center;
+  gap: 6px;               
+}
+
+/*make the cart count stand out more */
+.cart-btn span {
+  font-weight: 600;
+}
+
+
 @media (max-width: 700px) {
   .nav-menu {
     display: none;
